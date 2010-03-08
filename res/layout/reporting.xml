@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/RelativeLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView android:layout_height="wrap_content" android:id="@+id/tvRptJumpNumber" android:text="Jump Numbers" android:layout_width="fill_parent"></TextView><TextView android:layout_height="wrap_content" android:id="@+id/tvRptFreefallTime" android:layout_below="@+id/tvRptJumpNumber" android:text="Freefall time" android:layout_width="fill_parent"></TextView>
+<TextView android:layout_height="wrap_content" android:id="@+id/tvRptDZCount" android:layout_below="@+id/tvRptFreefallTime" android:text="Number of DZs jumped" android:layout_width="fill_parent"></TextView><TextView android:layout_height="wrap_content" android:layout_below="@+id/tvRptDZCount" android:id="@+id/tvRptMostVisited" android:text="Most visited DZ" android:layout_width="fill_parent"></TextView><TextView android:layout_height="wrap_content" android:id="@+id/tvRptAircraftJumped" android:layout_below="@+id/tvRptMostVisited" android:text="Number of aircraft jumped" android:layout_width="fill_parent"></TextView>
+
+
+
+<TextView android:layout_below="@+id/tvRptAircraftJumped" android:layout_height="wrap_content" android:id="@+id/tvRptMostJumped" android:text="Most jumped aircraft" android:layout_width="fill_parent"></TextView>
+</RelativeLayout>
